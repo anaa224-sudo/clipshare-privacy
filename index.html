@@ -36,6 +36,10 @@
     <p>ClipShare uses Google Play Services ML Kit Text Recognition for OCR. Text-recognition input and results are processed on-device. Google Play Services / ML Kit may collect diagnostic and analytics metrics such as device and app information, identifiers, performance metrics, API configuration, feature events, and error information according to Google's applicable documentation and policies.</p>
     <p>For more information, see <a href="https://developers.google.com/ml-kit/android-data-disclosure">Google's ML Kit data disclosure</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
+    <h2>Notification access</h2>
+    <p>If you enable the direct YouTube sharing feature, ClipShare can use Android notification access to inspect the YouTube notification's Share action and content launch action on-device. ClipShare uses this only to start a user-requested YouTube sharing flow without moving the visible screen.</p>
+    <p>ClipShare does not send notification content or notification metadata to a ClipShare-operated server.</p>
+
     <h2>Local storage, retention, and deletion</h2>
     <p>Sticky images and temporary OCR/capture data are stored locally only as needed to provide app features and may use the app cache. Temporary cache data may be removed by the app, by Android, or when the app is uninstalled.</p>
     <p>Images are saved to <code>Pictures/ClipShare</code> only when you explicitly choose Save. Saved images remain under your control and can be deleted using your device's gallery or file-management tools.</p>
@@ -63,6 +67,10 @@
     <h2>Google ML Kit</h2>
     <p>OCRにはGoogle Play Services版ML Kit Text Recognitionを使用します。文字認識の入力画像と認識結果は端末上で処理されます。Google Play Services / ML Kitは、Googleの適用される説明・ポリシーに基づき、診断・利用分析のために端末情報、アプリ情報、識別子、性能指標、API設定、機能イベント、エラー情報等のメトリクスを収集する場合があります。</p>
     <p>詳細は<a href="https://developers.google.com/ml-kit/android-data-disclosure">GoogleのML Kit Data Disclosure</a>および<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>をご確認ください。</p>
+
+    <h2>通知アクセス</h2>
+    <p>YouTubeの直接共有機能を有効にした場合、ClipShareはAndroidの通知アクセスを使用し、YouTube通知の共有アクションとコンテンツ起動アクションを端末上で確認することがあります。これは、画面を動かさずにユーザーが要求したYouTube共有フローを開始するためだけに使用します。</p>
+    <p>通知内容や通知メタデータをClipShare独自のサーバーへ送信する機能はありません。</p>
 
     <h2>端末内保存・保持期間・削除</h2>
     <p>Sticky画像や一時的なOCR・キャプチャデータは、機能提供に必要な範囲で端末内に保持され、アプリのキャッシュを使用する場合があります。一時キャッシュはアプリ、Android、またはアプリのアンインストールによって削除される場合があります。</p>
